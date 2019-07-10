@@ -1,0 +1,50 @@
+.ct-sm-line-chart,
+.ct-area-ln-chart,
+#ct-polar-chart,
+.ct-svg-chartct-bar-chart, .total-revenue, .chartist-chart {
+    position: relative;
+}
+.ct-product-chart .ct-series-a .ct-slice-donut{
+    stroke:#45b6ab
+}
+.ct-product-chart .ct-series-b .ct-slice-donut{
+    stroke:#ffbab9
+}
+.ct-product-chart .ct-series-c .ct-slice-donut{
+    stroke:#567c94
+}
+.ct-product-chart .ct-label{
+    font-size:14px;
+    fill:#fff;
+}
+.ct-label{
+    font-size:14px;
+}
+/*Android vs ios chart*/
+.total-revenue4{
+    position:relative;}
+
+    .ct-series-a .ct-line{
+        stroke:#458ab6;
+        stroke-width:1px;
+    }
+    .ct-series-a .ct-point{
+        stroke:#458ab6;
+        stroke-width:5px;
+    }
+    .ct-series-b .ct-line{
+        stroke:#45b6ab;
+        stroke-width:1px;
+    }
+    .ct-series-b .ct-point{
+        stroke:#45b6ab;
+        stroke-width:5px;
+    }
+    .ct-series-a .ct-area{
+        fill:#458ab6;
+        fill-opacity:0.2;
+    }
+    .ct-series-b .ct-area{
+        fill:#45b6ab;
+        fill-opacity:0.2;
+    }
